@@ -1,7 +1,17 @@
-# Base JS SDK DEMO
-## node: 16+
-1. install pnpm: npm install -g pnpm 
-2. pnpm i
-3. pnpm run start
+# 飞书多维表自由画板插件
 
-Now, you can see the output URL in the console, please click, then open the page, and copy the URL
+## 介绍
+
+可以在多维表中自由绘制图片，插入到多维表的附件字段中，也可以生成json格式的附件方便二次编辑
+
+## 主要功能
+
+可以将手绘风格的图片导入到多维表中，这些图片包含智能箭头和便签等便捷功能。此外，我们支持导入 SVG 等格式的文件，并提供二次编辑(需要选择导入json)的能力，使你可以随时调整和优化你的设计。
+
+1. 支持创建和编辑多种图形类型，包括线条、矩形、椭圆、文本等。
+2. 用户可以对图形进行各种操作，包括移动、缩放、旋转、改变颜色和样式等。
+3. 提供了图层管理功能，用户可以创建多个图层，并在图层之间移动图形。
+4. 支持撤销和重做操作，用户可以轻松地回退或重复他们的操作。
+5. 用户可以将他们的作品导出为 SVG、图片、json等文件，其中 json 支持二次编辑。
+
+[详情查看](https://sewluqug57.feishu.cn/docx/CTMvdc77OoU4w9xLFwFchNQin8e?from=from_copylink)
