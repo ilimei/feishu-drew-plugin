@@ -13,5 +13,10 @@ export default defineConfig({
   server: {
     host: 'localhost',
     port: 4009,
+  },
+  base: '/feishu-drew-plugin/',
+  build: {
+    outDir: 'docs',
+
   }
 })
